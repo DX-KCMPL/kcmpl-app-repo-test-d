@@ -1,0 +1,13 @@
+trigger: none
+
+pr:
+  branches:
+    include:
+      - develop
+
+pool:
+  vmImage: 'ubuntu-latest'
+
+steps:
+- script: echo "Running PR validation"
+  displayName: 'Run PR Check'
