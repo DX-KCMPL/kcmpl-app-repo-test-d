@@ -11,6 +11,3 @@ pool:
 steps:
 - script: echo "Running PR validation"
   displayName: 'Run PR Check'
-- script: |
-    exit 1 # Force failure
-  displayName: 'Force failure'
